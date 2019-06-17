@@ -6,7 +6,6 @@ const container = css`
   height: 400px;
   width: 100%;
 `;
-// const position = [this.state.lat, this.state.lng];
 function SimpleExample() {
   const [latitude, setLatitude] = React.useState(0);
   const [longitude, setLongitude] = React.useState(0);
